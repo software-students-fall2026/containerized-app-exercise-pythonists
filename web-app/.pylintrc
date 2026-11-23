@@ -1,0 +1,15 @@
+[MASTER]
+ignore=tests,.venv,venv,build,dist
+ignore-patterns=test_.*\.py,conftest\.py
+jobs=0
+
+[FORMAT]
+max-line-length=88
+
+[MESSAGES CONTROL]
+disable=
+    missing-module-docstring,
+    too-few-public-methods
+
+[BASIC]
+good-names=i,j,k,ex,id,db,_
