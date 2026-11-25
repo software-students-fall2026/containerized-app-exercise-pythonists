@@ -1,0 +1,16 @@
+{
+  "trend": [
+    {"created_at": "2026-11-20T18:30:00", "filler_per_min": 24.3, "wpm": 104.2},
+    {"created_at": "2026-11-21T10:15:00", "filler_per_min": 19.6, "wpm": 112.5},
+    {"created_at": "2026-11-22T16:42:00", "filler_per_min": 17.2, "wpm": 121.0},
+    {"created_at": "2026-11-23T21:10:00", "filler_per_min": 14.8, "wpm": 128.4},
+    {"created_at": "2026-11-24T19:05:00", "filler_per_min": 22.6, "wpm": 121.8}
+  ],
+  "top_fillers": [
+    {"word": "um", "count": 31},
+    {"word": "like", "count": 24},
+    {"word": "uh", "count": 17},
+    {"word": "you know", "count": 9},
+    {"word": "basically", "count": 6}
+  ]
+}
