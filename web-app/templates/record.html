@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}Record · Filler Word Coach{% endblock %}
+{% block content %}
+<section class="record card">
+  <h1>Record a practice talk</h1>
+  <p class="muted">Talk for at least 30 seconds. Press stop when you finish and your filler words, pace and pauses are counted.</p>
+  <div class="timer" id="timer">0:00</div>
+  <button id="record-btn" class="btn btn-primary btn-large" type="button">Start recording</button>
+  <p id="status" class="status" role="status" aria-live="polite"></p>
+</section>
+{% endblock %}
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/record.js') }}"></script>
+{% endblock %}
