@@ -4,17 +4,12 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-pylint = "*"
-black = "*"
 flask = "*"
 pymongo = "*"
-gunicorn = "*"
 
 [dev-packages]
 pytest = "*"
-pytest-cov = "*"
 pytest-flask = "*"
-mongomock = "*"
-
-[requires]
-python_version = "3.12"
+pytest-cov = "*"
+black = "*"
+pylint = "*"
